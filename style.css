@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-container {
+    text-align: center;
+    width: 60%;
+    background-color: lightblue;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    padding: 8px;
+    margin: 4px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover {
+    background-color: #f3f2f2;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.liText {
+    width: min-content;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+}
+
+.timestamp {
+    font-size: small;
+}
+
+.liDiv{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 40%;
+}
